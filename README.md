@@ -13,7 +13,7 @@ It uses a "lifting" technique by splitting the temperature $T$ into a homogeneou
 
 
 
-![Schematic of the cylindrical battery model](./Images/Battery_diag.png)
+![Schematic of the cylindrical battery model](./Images/Battery_diag.jpg)
 
 
 ---
