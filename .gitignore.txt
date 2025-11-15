@@ -1,0 +1,43 @@
+# ===================================================
+# Standard .gitignore file for MATLAB Projects
+# ===================================================
+
+# MATLAB auto-generated files
+*.asv
+*.m~
+*.log
+*.tmp
+*.bak
+*~
+.#*
+
+# MATLAB temporary files
+*.mdl.tmp
+*.slx.tmp
+
+# MATLAB crash dump files
+*.dmp
+
+# MATLAB Coder files
+codegen/
+slprj/
+
+# MATLAB package files
+*.mlappinstall
+*.mlpkginstall
+
+# MATLAB Profiler files
+*.prof
+
+# --- Project-Specific ---
+
+# Ignore generated MAT-files (simulation results)
+# We want to keep our INPUT .mat file, but ignore results
+*.mat
+!wltp_time_n_q.mat
+
+# Ignore generated plots
+*.fig
+*.png
+*.jpg
+*.pdf
