@@ -19,7 +19,7 @@ It uses a "lifting" technique by splitting the temperature $T$ into a homogeneou
 * **Boundary lifting for time-varying conditions:** Implements the method of lifting to handle non-homogeneous, time-varying boundary temperatures. The solution is decomposed into homogeneous and particular components, ensuring mathematically correct treatment of dynamic boundary conditions.
 
 
-![Schematic of the cylindrical battery model](./Images/Battery_diag.jpg)
+<img src="./images/Battery_diag.jpg" width="600">
 
 
 ---
