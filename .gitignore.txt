@@ -2,6 +2,7 @@
 # Standard .gitignore file for MATLAB Projects
 # ===================================================
 
+
 # MATLAB auto-generated files
 *.asv
 *.m~
@@ -41,3 +42,6 @@ slprj/
 *.png
 *.jpg
 *.pdf
+
+# From system
+.DS_Store
