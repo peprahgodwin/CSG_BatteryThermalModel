@@ -11,6 +11,12 @@ The core of the model is a state-space representation:
 
 It uses a "lifting" technique by splitting the temperature $T$ into a homogeneous solution $T_h$ (the states) and a particular solution $T_p$ (driven by boundary conditions).
 
+### Key features
+
+* **Independent boundary actuation:** The model supports four distinct thermal control inputs—top, bottom, core/jelly, and lateral surface—enabling flexible and direction-specific cooling strategies.
+* **High-fidelity thermal representation:** Captures coupled heat conduction in both the radial ($r$) and axial ($z$) directions, providing accurate spatial temperature predictions across the entire cell.
+* **Control-oriented formulation:** The PDE is reduced to a discrete-time state-space model, making it directly usable for simulation, controller design, or advanced techniques such as Model Predictive Control (MPC).
+* **Boundary lifting for time-varying conditions:** Implements the method of lifting to handle non-homogeneous, time-varying boundary temperatures. The solution is decomposed into homogeneous and particular components, ensuring mathematically correct treatment of dynamic boundary conditions.
 
 
 ![Schematic of the cylindrical battery model](./Images/Battery_diag.jpg)
@@ -59,9 +65,9 @@ It uses a "lifting" technique by splitting the temperature $T$ into a homogeneou
 
 **If you use this thermal model (code) in your research, please cite the following paper:**
 
-> **"Thermal Modelling of Battery Cells for Optimal Tab and Surface Cooling Control"**
-> Godwin K. Peprah, Yicun Huang, Torsten Wik, Faisal Altaf, Changfu Zou
-> * arXiv:2409.08974v2*
+> **"Thermal Modelling of Battery Cells for Optimal Tab and Surface Cooling Control"**,
+> Godwin K. Peprah, Yicun Huang, Torsten Wik, Faisal Altaf, Changfu Zou.
+> *arXiv:2409.08974v2*,
 > https://doi.org/10.48550/arXiv.2409.08974
 
 ## Acknowledgments
